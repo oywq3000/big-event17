@@ -3,6 +3,7 @@ package org.oyproj.controller;
 
 import jakarta.validation.constraints.Pattern;
 import org.apache.ibatis.annotations.Mapper;
+import org.hibernate.validator.constraints.URL;
 import org.oyproj.pojo.Result;
 import org.oyproj.pojo.User;
 import org.oyproj.service.UserService;
@@ -67,9 +68,15 @@ public class UserController {
         return Result.success(user);
     }
 
-    @PutMapping("update")
+    @PutMapping("/update")
     public Result update(@RequestBody @Validated User user){
         userService.update(user);
+        return Result.success();
+    }
+
+    @PatchMapping("/updateAvatar")
+    public Result updateAvatar(@RequestParam @URL String avatarUrl){
+        userService.updateAvatar(avatarUrl);
         return Result.success();
     }
 }

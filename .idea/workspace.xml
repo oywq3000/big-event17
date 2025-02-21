@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete update user info module;&#10;when update user info,we need get the request body and convert to User object.In this way, we hope validate the attributes of User;&#10;Using @NotNull,@NotEmpty and @Email for User pojo we find an easy way to validate this info">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/UserController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/UserService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/UserServiceImp.java" afterDir="false" />
     </list>
@@ -173,7 +171,7 @@
       <workItem from="1739846803344" duration="1194000" />
       <workItem from="1739935373446" duration="11893000" />
       <workItem from="1740030729902" duration="11389000" />
-      <workItem from="1740121180016" duration="5017000" />
+      <workItem from="1740121180016" duration="6475000" />
     </task>
     <task id="LOCAL-00001" summary="init big-event project">
       <created>1739716159529</created>
@@ -203,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740123806483</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="complete update user info module;&#10;when update user info,we need get the request body and convert to User object.In this way, we hope validate the attributes of User;&#10;Using @NotNull,@NotEmpty and @Email for User pojo we find an easy way to validate this info">
+      <created>1740126406872</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1740126406872</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,6 +241,7 @@
     <MESSAGE value="init big-event project" />
     <MESSAGE value="complete the module for getting user info" />
     <MESSAGE value="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors" />
-    <option name="LAST_COMMIT_MESSAGE" value="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors" />
+    <MESSAGE value="complete update user info module;&#10;when update user info,we need get the request body and convert to User object.In this way, we hope validate the attributes of User;&#10;Using @NotNull,@NotEmpty and @Email for User pojo we find an easy way to validate this info" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete update user info module;&#10;when update user info,we need get the request body and convert to User object.In this way, we hope validate the attributes of User;&#10;Using @NotNull,@NotEmpty and @Email for User pojo we find an easy way to validate this info" />
   </component>
 </project>
