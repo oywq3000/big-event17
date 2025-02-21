@@ -4,28 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/jvm.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/maven.config" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/BigEventApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/TimePrinter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Category.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/serviceLoader/Cipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/serviceLoader/imp/CaesarCipher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/test/proxy/ProxyTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/test/test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/oyproj/AppTest.java" afterDir="false" />
+    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="init big-event project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/interceptors/LoginInterceptor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/UserServiceImp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/utils/Md5Util.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/oyproj/JwtTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/TimePrinter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Result.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Result.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,17 +60,22 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/JavaWorkSpace/big-event17/src/main/java/org/oyproj/pojo&quot;,
+    &quot;last_opened_file_path&quot;: &quot;G:/JavaWorkSpace/big-event17/src/main/java/org/oyproj/utils&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;299f98ddc9324e1c18880b2bc0d5f561&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\JavaWorkSpace\big-event17\src\main\java\org\oyproj\utils" />
       <recent name="G:\JavaWorkSpace\big-event17\src\main\java\org\oyproj\pojo" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="org.oyproj.mapper" />
+      <recent name="org.oyproj.controller" />
+    </key>
   </component>
-  <component name="RunManager" selected="应用程序.ProxyTest">
+  <component name="RunManager" selected="Spring Boot.BigEventApplication">
     <configuration name="BigEventApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.oyproj.BigEventApplication" />
       <module name="big-event17" />
@@ -101,6 +102,38 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="JwtTest.testGen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.oyproj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.oyproj" />
+      <option name="MAIN_CLASS_NAME" value="org.oyproj.JwtTest" />
+      <option name="METHOD_NAME" value="testGen" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JwtTest.testParse" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="big-event17" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.oyproj.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="org.oyproj" />
+      <option name="MAIN_CLASS_NAME" value="org.oyproj.JwtTest" />
+      <option name="METHOD_NAME" value="testParse" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BigEventApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="big-event17" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="org.oyproj.BigEventApplication" />
@@ -116,8 +149,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="应用程序.ProxyTest" />
         <item itemvalue="Spring Boot.BigEventApplication" />
+        <item itemvalue="JUnit.JwtTest.testParse" />
+        <item itemvalue="JUnit.JwtTest.testGen" />
+        <item itemvalue="应用程序.ProxyTest" />
         <item itemvalue="应用程序.BigEventApplication" />
       </list>
     </recent_temporary>
@@ -134,8 +169,21 @@
       <workItem from="1734662854772" duration="4114000" />
       <workItem from="1734938151681" duration="5945000" />
       <workItem from="1735005587817" duration="2884000" />
-      <workItem from="1739714481052" duration="1299000" />
+      <workItem from="1739714481052" duration="1851000" />
+      <workItem from="1739716394056" duration="968000" />
+      <workItem from="1739777834314" duration="1770000" />
+      <workItem from="1739846803344" duration="1194000" />
+      <workItem from="1739935373446" duration="11893000" />
+      <workItem from="1740030729902" duration="11389000" />
     </task>
+    <task id="LOCAL-00001" summary="init big-event project">
+      <created>1739716159529</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1739716159529</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -151,5 +199,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="init big-event project" />
+    <option name="LAST_COMMIT_MESSAGE" value="init big-event project" />
   </component>
 </project>
