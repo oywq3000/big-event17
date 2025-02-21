@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete the module for getting user info">
+    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors">
       <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/utils/ThreadLocalUtil.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/test/java/org/oyproj/ThreadLocalTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -166,7 +166,7 @@
       <workItem from="1739846803344" duration="1194000" />
       <workItem from="1739935373446" duration="11893000" />
       <workItem from="1740030729902" duration="11389000" />
-      <workItem from="1740121180016" duration="2181000" />
+      <workItem from="1740121180016" duration="2559000" />
     </task>
     <task id="LOCAL-00001" summary="init big-event project">
       <created>1739716159529</created>
@@ -182,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740121315008</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors">
+      <created>1740123756892</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1740123756892</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -214,6 +221,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init big-event project" />
     <MESSAGE value="complete the module for getting user info" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete the module for getting user info" />
+    <MESSAGE value="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors" />
+    <option name="LAST_COMMIT_MESSAGE" value="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors" />
   </component>
 </project>
