@@ -1,6 +1,7 @@
 package org.oyproj.controller;
 
 
+import org.apache.ibatis.annotations.Param;
 import org.oyproj.pojo.Category;
 import org.oyproj.pojo.Result;
 import org.oyproj.service.CategoryService;
@@ -25,5 +26,11 @@ public class CategoryController {
     public Result<List<Category>> list(){
         List<Category> cs = categoryService.list();
         return Result.success(cs);
+    }
+
+    @GetMapping("/detail")
+    public Result<Category> detail(@RequestParam Integer id){
+        Category c = categoryService.findById(id);
+        return Result.success(c);
     }
 }

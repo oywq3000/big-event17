@@ -9,4 +9,6 @@ public interface CategoryService {
 
     //list all category for user
     List<Category> list();
+
+    Category findById(Integer id);
 }
