@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete update user avatar;&#10;@URL validate avatar url;&#10;patch option is a small option for put option">
+    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete update user password;">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/CategoryServiceImp.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/UserServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/UserServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +19,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -171,7 +171,7 @@
       <workItem from="1739846803344" duration="1194000" />
       <workItem from="1739935373446" duration="11893000" />
       <workItem from="1740030729902" duration="11389000" />
-      <workItem from="1740121180016" duration="7744000" />
+      <workItem from="1740121180016" duration="9614000" />
     </task>
     <task id="LOCAL-00001" summary="init big-event project">
       <created>1739716159529</created>
@@ -215,7 +215,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740127879254</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="complete update user password;">
+      <created>1740129152275</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1740129152275</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -250,6 +257,7 @@
     <MESSAGE value="optimize the procession of getting user info;&#10;the main method is ThreadLocal, to set and get the username in thread safe way;&#10;Note: when once request over, you must free the variable in interceptors" />
     <MESSAGE value="complete update user info module;&#10;when update user info,we need get the request body and convert to User object.In this way, we hope validate the attributes of User;&#10;Using @NotNull,@NotEmpty and @Email for User pojo we find an easy way to validate this info" />
     <MESSAGE value="complete update user avatar;&#10;@URL validate avatar url;&#10;patch option is a small option for put option" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete update user avatar;&#10;@URL validate avatar url;&#10;patch option is a small option for put option" />
+    <MESSAGE value="complete update user password;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete update user password;" />
   </component>
 </project>
