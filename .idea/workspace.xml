@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete category detail;">
+    <list default="true" id="e74d0ec9-d923-4c8b-9bec-549aefc0e96f" name="变更" comment="complete category update;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/CategoryMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/mapper/CategoryMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Category.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/pojo/Category.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/CategoryService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/CategoryServiceImp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/oyproj/service/impl/CategoryServiceImp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -172,7 +169,7 @@
       <workItem from="1739846803344" duration="1194000" />
       <workItem from="1739935373446" duration="11893000" />
       <workItem from="1740030729902" duration="11389000" />
-      <workItem from="1740121180016" duration="11592000" />
+      <workItem from="1740121180016" duration="12744000" />
     </task>
     <task id="LOCAL-00001" summary="init big-event project">
       <created>1739716159529</created>
@@ -244,7 +241,14 @@
       <option name="project" value="LOCAL" />
       <updated>1740132586291</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="complete category update;">
+      <created>1740133219560</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740133219560</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -283,6 +287,7 @@
     <MESSAGE value="complete category creation;&#10;normally validate the pojo body in Controller layer;&#10;we need to assign additional values to Category pojo in service layer" />
     <MESSAGE value="complete category list;&#10;add @JsonFormat for assigning format when database convert to object,to cater the web date format" />
     <MESSAGE value="complete category detail;" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete category detail;" />
+    <MESSAGE value="complete category update;" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete category update;" />
   </component>
 </project>
