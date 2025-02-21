@@ -8,6 +8,7 @@ import org.oyproj.pojo.User;
 import org.oyproj.service.UserService;
 import org.oyproj.utils.JwtUtil;
 import org.oyproj.utils.Md5Util;
+import org.oyproj.utils.ThreadLocalUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
@@ -57,10 +58,11 @@ public class UserController {
     }
 
     @GetMapping("userInfo")
-    public Result<User> userInfo(@RequestHeader(name = "Authorization") String token){
-        Map<String, Object> map = JwtUtil.parseToken(token);
+    public Result<User> userInfo(/*@RequestHeader(name = "Authorization") String token*/){
+       /* Map<String, Object> map = JwtUtil.parseToken(token);
+        String username = (String) map.get("username");*/
+        Map<String,Object> map =  ThreadLocalUtil.get();
         String username = (String) map.get("username");
-
         User user = userService.findByUserName(username);
         return Result.success(user);
     }
