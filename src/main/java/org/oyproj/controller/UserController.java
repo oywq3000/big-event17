@@ -57,7 +57,7 @@ public class UserController {
         return Result.error("password error");
     }
 
-    @GetMapping("userInfo")
+    @GetMapping("/userInfo")
     public Result<User> userInfo(/*@RequestHeader(name = "Authorization") String token*/){
        /* Map<String, Object> map = JwtUtil.parseToken(token);
         String username = (String) map.get("username");*/
@@ -65,5 +65,11 @@ public class UserController {
         String username = (String) map.get("username");
         User user = userService.findByUserName(username);
         return Result.success(user);
+    }
+
+    @PutMapping("update")
+    public Result update(@RequestBody @Validated User user){
+        userService.update(user);
+        return Result.success();
     }
 }
